@@ -102,12 +102,20 @@ figure figcaption{
     padding-left: 15px;
 }
 
-.hours a{
+/* home image style */
+.home img{
+    vertical-align: top;
+    padding-left: 40px;
+    width: auto;
+    height: 600px; 
+}
+
+.home button{
+    background-color: #d3e1ff;
+    border-radius: 8px;
     color: #00356B;
-    font-size: 18px;
-    font-family: sans-serif;
     font-weight: bold;
-    padding-left: 70px;
-    padding-top: 5px;
-    padding-bottom: 50px;
+    font-size: 16px;
+    display: inline-block;
+    padding: 12px 30px;
 }
