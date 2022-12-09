@@ -1,5 +1,5 @@
 /* welcome */
-.header {
+.header{
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -28,7 +28,7 @@
 }
 
 /* heading of each website*/
-.bottomdiv h1 {
+.bottomdiv h1{
     color: #00356B;
     text-align: left;
     padding-top: 30px;
@@ -52,7 +52,7 @@ figure img{
     vertical-align: top;
     padding-left: 40px;
     width: auto;
-    height: 400px; 
+    height: 300px; 
 }
 
 /* image caption style */
@@ -64,13 +64,15 @@ figure figcaption{
     text-align: right;
 }
 
-/* "address:" style */
+/* "address: and opening hours:" style */
 .bottomdiv h3{
     color: #00356B;
     font-size: 18px;
     font-family: sans-serif;
     font-weight: bold;
     padding-left: 70px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 /* address link style */
@@ -78,5 +80,34 @@ figure figcaption{
     color: #2960be;
     font-size: 16px;
     font-family: sans-serif;
+    padding-left: 90px;
+
+}
+
+/* hours style */
+.bottomdiv h5{
+    color: black;
+    font-size: 16px;
+    font-family: sans-serif;
     padding-left: 80px;
+}
+
+/* day style */
+.day{
+    color: black;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-right: 8px;
+    padding-left: 15px;
+}
+
+.hours a{
+    color: #00356B;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-left: 70px;
+    padding-top: 5px;
+    padding-bottom: 50px;
 }
