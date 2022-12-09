@@ -3,6 +3,14 @@
     <head>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
             
+            function showStuff(id, text, btn) {
+            document.getElementById(id).style.display = 'block';
+            // hide the lorem ipsum text
+            document.getElementById(text).style.display = 'none';
+            // hide the link
+             btn.style.display = 'none';
+            }
+
         </script>
         <link href="styles.css" rel="stylesheet">
         <title> </title>
@@ -12,7 +20,7 @@
     </head>
     <body>
         <div class = "header">
-            <h1> Welcome to Yale Study Spots</h1>
+            <p> Welcome to Yale Study Spots<p>
         </div>
 
         <div class = "topnav">
@@ -38,6 +46,16 @@
                 <figcaption> Yale Campus Map </figcaption>
             </figure>
             <br>
+
+            <td class="post">
+
+                <a href="#" style = "position:relative; left: 1000px; top:-500px;" onclick = "showStuff('answer1', 'text1', this); return false;">Click to review</a>
+                <span id="answer1" style="display: none;"><textarea rows="20" cols="115"></textarea></span>
+
+                <span id="text1">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</span>
+            </td>
+
+
             <button> Review a Study Spot </button>
         </div>
 
