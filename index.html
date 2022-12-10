@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link href="styles.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"> </script>      
         <script>  
@@ -15,14 +14,14 @@
                 }
             }
         </script>
-   
+        <title>Homepage</title>
         <meta charset = "utf-8">
         <!-- for pc and mobile device-->
         <meta name = "viewport" content = "width=device-width, initial-scale=1">
     </head>
     <body>
         <div class = "header">
-                <h1> Welcome to Yale Study Spots</h1> 
+            <p> Welcome to Yale Study Spots<p>
         </div>
 
         <div class = "topnav">
@@ -44,50 +43,27 @@
         </div>
         <div class = "home">
             
-                
+            <figure>
                 <img src="yalecampusmap.jpeg" usemap="#image-map" alt = "Yale Campus Map"/>
                 <!-- <figcaption> Yale Campus Map </figcaption> -->
                 <map name="image-map">
-                    <area target="_blank" alt="som" title="som" href="http://127.0.0.1:5500/som.html" coords="1301,339,54" shape="circle">
-                    <area target="" alt="steep" title="steep" href="steep.html" coords="1208,519,25" shape="circle">
-                    <area target="_blank" alt="apple" title="apple" href="https://www.apple.com" coords="1946,837,1700,626" shape="rect">
+                    <area target="_blank" alt="som" title="som" href="som.html" coords="1301,348,26" shape="circle">
+                    <area target="_blank" alt="steep" title="steep" href="steep.html" coords="1208,530,21" shape="circle">
+                    <area target="_blank" alt="kroon" title="kroon" href="kroonhall.html" coords="1266,543,20" shape="circle">
+                    <area target="_blank" alt="beanjamin" title="beanjamin" href="beanjamin.html" coords="1435,591,19" shape="circle">
+                    <area target="_blank" alt="tsaicity" title="tsaicity" href="tsaicity.html" coords="1614,463,21" shape="circle">
+                    <area target="_blank" alt="bass" title="bass" href="bass.html" coords="1809,543,19" shape="circle">
+                    <area target="_blank" alt="sterling" title="sterling" href="sterling.html" coords="1806,623,21" shape="circle">
+                    <area target="_blank" alt="hq" title="hq" href="hq.html" coords="1744,684,21" shape="circle">
                 </map>
+            </figure>
             
 
             <br>
-            <center>
-                <button onclick="myFunction()">Review a Study Spot</button>
-            
+            <button onclick="myFunction()">Review a Study Spot</button>
             <div id="test">
-                <span>
-                    <br>               
-                        <label for="spots">Choose a study spot:</label>
-                        
-                        <select id="spots" name="spots">
-                          <option value="" disabled selected hidden>Select Below</option>
-                          <option value="sterling">Sterling Library</option>
-                          <option value="bass">Bass Library</option>
-                          <option value="hq">Humanities Quad</option>
-                          <option value="tsaicity">Tsai City</option>
-                          <option value="kroon">Kroon Hall</option>
-                          <option value="beanjamin">Beanjamin</option>
-                          <option value="som">School of Management</option>
-                          <option value="steep">Steep Cafe</option>
-                        </select>
-                    <br>
-                <form action ="/" method = "post">
-                    <textarea rows="10" cols="115" placeholder="Write your review here." id="review" name="review" type="text" autocomplete="off"></textarea>
-                    <br>
-                
-                    <button>Submit</button>
-                </form>
-                </span>
-                <br>
-                   
+                This is my DIV element.
             </div>
-            
-            
-            </center>
         </div>
     </body>
 </html>
