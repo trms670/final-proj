@@ -1,6 +1,6 @@
 import os
 from flask import Flask, flash, redirect, render_template, request, session
-from flask_session import Session
+from flask_session.__init__ import Session
 from tempfile import mkdtemp
 
 app = Flask(__name__)
@@ -14,5 +14,3 @@ Session(app)
 def index():
     if request.method == "GET":
         return render_template("index.html")
-    else:
-        
