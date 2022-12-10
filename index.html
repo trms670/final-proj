@@ -51,15 +51,14 @@
             <br>
             <center>
                 <button onclick="myFunction()">Review a Study Spot</button>
-                
+            
             <div id="test">
                 <span>
-                    <br>
-                    
-                    <form action="/action_page.php">
+                    <br>               
                         <label for="spots">Choose a study spot:</label>
                         
                         <select id="spots" name="spots">
+                          <option value="" disabled selected hidden>Select Below</option>
                           <option value="sterling">Sterling Library</option>
                           <option value="bass">Bass Library</option>
                           <option value="hq">Humanities Quad</option>
@@ -69,14 +68,15 @@
                           <option value="som">School of Management</option>
                           <option value="steep">Steep Cafe</option>
                         </select>
-                        </form>
                     <br>
-                  
-                    <textarea rows="10" cols="115"></textarea>
+                <form action ="/" method = "post">
+                    <textarea rows="10" cols="115" placeholder="Write your review here." id="review" name="review" type="text" autocomplete="off"></textarea>
                     <br>
                 
                     <button>Submit</button>
+                </form>
                 </span>
+                <br>
                    
             </div>
             
