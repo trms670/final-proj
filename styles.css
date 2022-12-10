@@ -120,3 +120,113 @@ figure figcaption{
     margin-left: auto;
     margin-right: auto;
 }
+
+.home h1{
+    color: #00356B;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 35px;
+    font-family: cursive;
+}
+
+/* for dropdown menu */
+.home body {
+    height: 100%;
+background: url(http://pickupleagues.com/images/backgrounds/CC_fence-basketball.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+font-family: Verdana, Arial, sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .user-box {
+    margin: 0 auto;
+    width: 400px;
+  }
+  
+  .user-id {
+    height: 100px;
+    width: 100%;
+    background: #fff;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .user-picture {
+    height: 100%;
+    float: left;
+  }
+  
+  .user-name {
+    height: 100%;
+    width: 300px;
+    font-size: 1.5em;
+    line-height: 2.5em;
+    padding: 20px;
+    float: left;
+  }
+  
+  .dropdown-arrow {
+    height: 0;
+    width: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 10px solid #333;
+    position: relative;
+    top: 45px;
+    left: 350px;
+  }
+  
+  .user-id:hover .dropdown-arrow {
+    top: 35px;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 10px solid #333;
+    border-top: 10px solid transparent;
+  }
+  
+  .dropdown-menu {
+    list-style-type: none;
+    display: none;
+    background: #555; /* Non-rgba compatable browsers */
+    background: rgba(33, 33, 33, 0.9);
+  }
+  
+  .user-id:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    top: 100%;
+  }
+  
+  .dropdown-menu ul li {
+    list-style-type: none;
+    display: block;
+    height: 100px;
+    width: 400px;
+    font-size: 1.5em;
+    line-height: 2.5em;
+    padding: 20px;
+    color: #fff;
+    border-bottom: 2px solid #333;
+  }
+  
+  .dropdown-menu ul li:last-child {
+    border-bottom: none;
+  }
+  
+  .dropdown-menu ul li:hover {
+    background: #333;
+    color: #fff;
+  }
