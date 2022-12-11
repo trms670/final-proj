@@ -14,6 +14,9 @@
                     x.style.display = "none";
                 }
             }
+            function review () {
+                window.location.replace(document.getElementById("spots").value);
+            };
         </script>
         <title>Homepage</title>
         <meta charset = "utf-8">
@@ -76,22 +79,21 @@
 
                         <select id="spots" name="spots">
                           <option value="" disabled selected hidden>Select Below</option>
-                          <option value="sterling">Sterling Library</option>
-                          <option value="bass">Bass Library</option>
-                          <option value="hq">Humanities Quad</option>
-
-                          <option value="som">School of Management</option>
-                          <option value="steep">Steep Cafe</option>
+                          <option value="sterling.html">Sterling Library</option>
+                          <option value="bass.html">Bass Library</option>
+                          <option value="hq.html">Humanities Quad</option>
+                          <option value="tsaicity.html">Tsai City</option>
+                          <option value="kroonhall.html">Kroon hall</option>
+                          <option value="beanjamin.html">Beanjamin</option>
+                          <option value="som.html">School of Management</option>
+                          <option value="steep.html">Steep Cafe</option>
                         </select>
                         </form>
                     <br>
                   
-                <form action ="/" method = "post">
                     <textarea rows="10" cols="115" placeholder="Write your review here." id="review" name="review" type="text" autocomplete="off"></textarea>
-                    <br>
-
-                    <button>Submit</button>
-                </form>
+                    <br>   
+                    <button id="submit" onclick = "review()">Submit</button>
                 </span>
                 <br>
 
