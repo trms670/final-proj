@@ -134,3 +134,30 @@ figure figcaption{
 }
 
 /* for dropdown menu */
+
+
+
+
+/* tsai city comment */
+#comment-box{
+    height: 100px;
+    width: 300px;
+    border-radius: 5px;
+
+}
+
+.commentbox{
+    padding-left: 900px;
+}
+
+#submit{
+    background-color: #d3e1ff;
+    border-radius: 8px;
+    color: #00356B;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    padding: 4px 4px;
+}
+
+
