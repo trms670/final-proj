@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <link href="styles.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"> </script>      
         <script>  
             function myFunction() {
@@ -21,7 +22,7 @@
     </head>
     <body>
         <div class = "header">
-            <p> Welcome to Yale Study Spots<p>
+            <h1> Welcome to Yale Study Spots </h1> 
         </div>
 
         <div class = "topnav">
@@ -59,10 +60,40 @@
             
 
             <br>
+            <center>
             <button onclick="myFunction()">Review a Study Spot</button>
+            
             <div id="test">
-                This is my DIV element.
+                <span>
+                    <br>
+
+                    <form action="/action_page.php">
+                    <br>               
+                        <label for="spots">Choose a study spot:</label>
+
+                        <select id="spots" name="spots">
+                          <option value="" disabled selected hidden>Select Below</option>
+                          <option value="sterling">Sterling Library</option>
+                          <option value="bass">Bass Library</option>
+                          <option value="hq">Humanities Quad</option>
+
+                          <option value="som">School of Management</option>
+                          <option value="steep">Steep Cafe</option>
+                        </select>
+                        </form>
+                    <br>
+                  
+                <form action ="/" method = "post">
+                    <textarea rows="10" cols="115" placeholder="Write your review here." id="review" name="review" type="text" autocomplete="off"></textarea>
+                    <br>
+
+                    <button>Submit</button>
+                </form>
+                </span>
+                <br>
+
             </div>
+        </center>
         </div>
     </body>
 </html>
