@@ -146,14 +146,13 @@ figure figcaption{
     height: 100px;
     width: 300px;
     border-radius: 5px;
-
 }
 
 .commentbox{
     padding-left: 900px;
     position: fixed;
     left: -60px;
-    top: 250px;
+    top: 1000px;
 }
 
 #submit{
