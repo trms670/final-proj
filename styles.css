@@ -160,4 +160,10 @@ figure figcaption{
     padding: 4px 4px;
 }
 
+table {
+    max-width: 50%;
+}
+.tably {
+    position: absolute; top: 170px; left: 660px;
+}
 
