@@ -171,5 +171,6 @@ table {
 }
 .tably {
     position: absolute; top: 170px; left: 660px;
+    text-indent: 100px;
 }
 
