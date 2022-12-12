@@ -18,4 +18,6 @@ On a sidenote, a special feature of the "submit" button is that if the user does
 
 Overall, to make the website layout design more aesthetic, we used various fonts and italics in styles.css for the header, image captions, text, and more. 
 
+*Note: For style, comments are only inputted onto sterling.html to serve as an example as the other study spot pages implement the same functions.
+
 
