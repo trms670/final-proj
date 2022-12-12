@@ -146,7 +146,11 @@ figure figcaption{
     height: 100px;
     width: 300px;
     border-radius: 5px;
-
+}
+#rating {
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
 }
 
 .commentbox{
@@ -166,7 +170,7 @@ figure figcaption{
     padding: 4px 4px;
 }
 
-#warning {
+.warning {
     color: red;
 }
 

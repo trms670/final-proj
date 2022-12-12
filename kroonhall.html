@@ -60,13 +60,16 @@
         <table id="reviews" class = "table table-dark">
             <tr>
                 <th scope="col">Reviews</th>
+                <th scope="col">Rating/10</th>
             </tr>
         </table>
-       <div id = "test">
+       <div id = "test" style="display:none;">
         <div class = "commentbox">
             <input type="text" id="comment-box" placeholder="Leave your review here.">
+            <input type="text" id="rating" placeholder="Rating/10">
             <button id="submit">Submit</button>
-            <p id="warning" hidden>Please type a response.</p>
+            <p class="warning" id = "warning" hidden>Please type a response.</p>
+            <p class="warning" id = "warning2" hidden>Please type a number between 0 and 10.</p>
         </div>
        </div> 
         
