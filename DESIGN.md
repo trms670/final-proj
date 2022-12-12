@@ -12,9 +12,7 @@ Surprisingly, our 'better' goal was giving us the most trouble. Our 'better goal
 
 To tackle posting a review on a specific study spot page, we created a "Review This Spot" button that implements Javascript event listeners "hide/show" feature so that when the button is clicked, a response textbox and a "submit" button will appear. If the button is clicked again, the textbox and "submit" button will disappear. 
 
-The next big struggle was trying to post user data onto the website, but keep it on the website even after it reloaded, without using flask now. We needed to store user information into some database, in order for the website to remember user information. The situation was that we were able to use Javascript to post a user review onto the page after clicking the "submit" button, but the user review would not be saved if the page reloaded. 
-
-So we decided to try using SQL to store user information.
+When the user presses the "submit" button, Javascript's onClick event listener posts the user's reviews under the black Review bar.
 
 On a sidenote, a special feature of the "submit" button is that if the user does not type anything into the response textbox, a warning message will appear that says "Please type in a response". This ensures the user does not submit a blank review by accident. We implemented this feature through Javascript.
 
