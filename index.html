@@ -14,8 +14,8 @@
                     x.style.display = "none";
                 }
             }
-            function review() {
-                window.location.replace(document.getElementById("spots").value);
+            function redirect(newlink) {
+                window.location.replace(newlink);
             }
         </script>
         <title>Homepage</title>
@@ -48,14 +48,14 @@
                 <img src="yalecampusmap.jpeg" usemap="#image-map" alt = "Yale Campus Map"/>
                 <!-- <figcaption> Yale Campus Map </figcaption> -->
                 <map name="image-map">
-                    <area target="_blank" alt="som" title="som" href="som.html" coords="490,129,7" shape="circle">
-                    <area target="_blank" alt="steep" title="steep" href="steep.html" coords="456,198,7" shape="circle">
-                    <area target="_blank" alt="kroon" title="kroon" href="kroonhall.html" coords="478,205,8" shape="circle">
-                    <area target="_blank" alt="beanjamin" title="beanjamin" href="beanjamin.html" coords="541,223,7" shape="circle">
-                    <area target="_blank" alt="tsaicity" title="tsaicity" href="tsaicity.html" coords="609,173,7" shape="circle">
-                    <area target="_blank" alt="bass" title="bass" href="bass.html" coords="680,205,7" shape="circle">
-                    <area target="_blank" alt="sterling" title="sterling" href="sterling.html" coords="681,233,8" shape="circle">
-                    <area target="_blank" alt="hq" title="hq" href="hq.html" coords="658,256,6" shape="circle">
+                    <area target="_blank" alt="som" title="som" onclick="redirect('som.html')" coords="490,129,7" shape="circle">
+                    <area target="_blank" alt="steep" title="steep" onclick="redirect('steep.html')" coords="456,198,7" shape="circle">
+                    <area target="_blank" alt="kroon" title="kroon" onclick="redirect('kroonhall.html')" coords="478,205,8" shape="circle">
+                    <area target="_blank" alt="beanjamin" title="beanjamin" onclick="redirect('beanjamin.html')" coords="541,223,7" shape="circle">
+                    <area target="_blank" alt="tsaicity" title="tsaicity" onclick="redirect('tsaicity.html')" coords="609,173,7" shape="circle">
+                    <area target="_blank" alt="bass" title="bass" onclick="redirect('bass.html')" coords="680,205,7" shape="circle">
+                    <area target="_blank" alt="sterling" title="sterling" onclick="redirect('sterling.html')" coords="681,233,8" shape="circle">
+                    <area target="_blank" alt="hq" title="hq" onclick="redirect('hq.html')" coords="658,256,6" shape="circle">
                 </map>
             
 
@@ -90,7 +90,7 @@
                   
                     <textarea rows="10" cols="115" placeholder="Write your review here." id="review" name="review" type="text" autocomplete="off"></textarea>
                     <br>   
-                    <button id="submit" onclick = "review()">Submit</button>
+                    <button id="submit" onclick="redirect(document.getElementById('spots').value)">Submit</button>
                 </span>
                 <br>
 

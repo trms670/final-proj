@@ -173,3 +173,7 @@ table {
     position: absolute; top: 170px; left: 660px;
 }
 
+area {
+    cursor: pointer;
+}
+
