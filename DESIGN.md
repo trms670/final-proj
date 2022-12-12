@@ -6,10 +6,12 @@ We designed the homepage structure on index.html, using styles.css to design the
 
 Another feature of the homepage that does this same function is the interactive map, which redirects users to the page of the specific spot that is clicked on. We thought that an interactive map would be more fun for the user and give users an idea of the relative location of a certain spot on the Yale campus. The interactive map is based on the coordinates of the study spot and shape of the area it is (circle) to determine whether a user clikced in that relative area should be brought to the html page of the spot. 
 
-For the "Review a Study Spot" button, we used a feature in JavaScript to hide the dropdown menu, textbox, and "submit" button and show those elements only when that the "Review a Study Spot" button is clicked. The hidden dropdown menu feature is created so that the user can select a spot and have their selected spot become a placeholder. The code from this feature was based on a w3schools dropdown example. 
+//For the "Review a Study Spot" button, we used a feature in JavaScript to hide the dropdown menu, textbox, and "submit" button and show those elements only when that the "Review a Study Spot" button is clicked. The hidden dropdown menu feature is created so that the user can select a spot and have their selected spot become a placeholder. The code from this feature was based on a w3schools dropdown example. 
 
-One area that we struggled with was trying to get the review button to work so that it posted a review on the correct page of the user's chosen study spot. We originally tried to implement flask like in pset Finance but our VScode was unsuccessful in running flask. 
-In the end, we decided to go with
+We encountered many struggles with trying to post user reviews onto the website. We originally had the idea of one "review" button that could post onto any specific study spot page. However, we weren't able to implement flask properly onto our local VScode without cs50 library flask functions. 
+
+
+For "please type in a response",
 
 Overall, to make the website design more aesthetic, we used different fonts and italics in styles.css for the header and image captions. 
 
