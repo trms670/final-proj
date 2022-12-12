@@ -4,7 +4,7 @@ post.addEventListener("click", function(){
     var warning = document.getElementById("warning");
     if (commentBoxValue == "") {
         warning.removeAttribute("hidden");
-    }
+    }   
     else {
         warning.setAttribute("hidden", true);
         let table = document.getElementById("reviews");
