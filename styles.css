@@ -174,3 +174,7 @@ table {
     text-indent: 100px;
 }
 
+area {
+    cursor: pointer;
+}
+
