@@ -4,7 +4,21 @@
     <head>
         <link href="styles.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"> </script>      
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"> </script> 
+        <script>  
+            function myFunction() {
+                var x = document.getElementById("test");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } 
+                else {
+                    x.style.display = "none";
+                }
+            }
+            function review () {
+                window.location.replace(document.getElementById("spots").value);
+            };
+        </script>     
         <meta charset = "utf-8">
         <!-- for pc and mobile device-->
         <meta name = "viewport" content = "width=device-width, initial-scale=1">
@@ -42,19 +56,31 @@
             <h5><span class = day>Mon - Sun</span>Open 24 hours</h5>
             <h3>Address:</h3>
             <a href="https://www.google.com/maps/dir/41.3138944,-72.9284608/Tsai+Center+for+Innovative+Thinking+at+Yale,+Becton+Engineering+and+Applied+Science+Center,+Becton+Plaza,+Prospect+Street,+New+Haven,+CT/@41.3128144,-72.9278307,18z/data=!3m2!4b1!5s0x89e7d9b877372a1b:0xa8047d6b69130c9!4m9!4m8!1m1!4e1!1m5!1m1!1s0x89e7d9b3e83c2591:0xd8ebbbf1e35bf08e!2m2!1d-72.9248888!2d41.3124479">17 Prospect St, New Haven, CT 06511</a>
-            <h3> </h3>
+            
+                 <div class = "home">  
+                    <button onclick="myFunction()">Review This Spot</button> 
+                </div>
         </div>
+<<<<<<< HEAD
         <table id="reviews" class = "table table-dark tably">
             <tr>
                 <th scope="col">Reviews</th>
             </tr>
         </table>
+=======
+       
+        
+
+       <div id = "test">
+>>>>>>> 4ad8c3e59bc9751e2d95e3efaae922cdcfb49491
         <div class = "commentbox">
             <input type="text" id="comment-box" placeholder="Leave your comment">
             <button id="submit">Submit</button>
         </div>
             
        </ul>
+
+       </div>
         
         <script src="tsaicity.js"></script>
         
