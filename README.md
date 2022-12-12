@@ -8,8 +8,7 @@ The home page features a Yale campus map with red dots labeling the relative loc
 
 The other tabs all showcase popular Yale study spots. Each has a photo of the spot and a caption. Below the photo describes the opening hours and address of each spot. The address is linked so that when the user clicks on it, the website redirects to Google maps with the address pasted in as a destination. 
 
-A special feature on each tab of a specific spot is that the user can review that spot so that their review is posted onto the website. To do so, click on "Review this spot" button. Then a textbox and "submit" button should appear. The user should write their review in the textbox and then click the "submit" button to see their review posted onto the website. If the user does not write anything in the response textbox and accidentally clicks the "submit" button, to prevent submitting a blank response, there should be a warning message that pops up. 
-Your user review should still be on the website even after reloading the website.
+A special feature on each tab of a specific spot is that the user can review that spot so that their review is posted onto the website. To do so, click on "Review this spot" button. Then a textbox and "submit" button should appear. The user should write their review in the textbox and then click the "submit" button to see their review posted onto the website. If the user does not write anything in the response textbox and accidentally clicks the "submit" button, to prevent submitting a blank response, there will be a warning message that pops up. The user can see previous reviews on the website. Your own user review should still be on the website even after reloading the website.
 
 
 
